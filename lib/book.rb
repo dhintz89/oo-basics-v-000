@@ -8,7 +8,7 @@ class Book
   end
   
   def title
-    puts @title
+    @title
   end
   
   def author=(author)
