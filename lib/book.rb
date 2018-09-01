@@ -16,7 +16,7 @@ class Book
   end
   
   def author
-    puts @author
+    @author
   end
   
   def page_count=(page_count)
@@ -24,7 +24,7 @@ class Book
   end
   
   def page_count
-    puts @page_count
+    @page_count
   end
   
   # accr_accessor :title, :author, :page_count
