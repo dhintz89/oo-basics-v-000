@@ -19,6 +19,14 @@ class Book
     @author
   end
   
+  def genre=(genre)
+    @genre = genre
+  end
+  
+  def genre
+    @genre
+  end
+  
   def page_count=(page_count)
     @page_count = page_count
   end
@@ -27,6 +35,6 @@ class Book
     @page_count
   end
   
-  # accr_accessor :title, :author, :page_count
+  # accr_accessor :title, :author, :genre, :page_count
   
 end
