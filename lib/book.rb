@@ -35,6 +35,8 @@ class Book
     @page_count
   end
   
+  def turn_page
+  end
   # accr_accessor :title, :author, :genre, :page_count
   
 end
